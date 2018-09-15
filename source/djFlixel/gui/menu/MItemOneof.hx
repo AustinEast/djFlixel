@@ -83,7 +83,7 @@ class MItemOneof extends MItemBase
 		// Maximum distance to travel
 		var arrow_maxNudge = Std.int(style.fontSize  * NUDGE_RATIO);
 		
-		arrow_tween = FlxTween.num(0, arrow_maxNudge, c.sliderTime, { type:FlxTween.LOOPING }, _arrowUpdateNudge);
+		arrow_tween = FlxTween.num(0, arrow_maxNudge, c.sliderTime, { type:FlxTweenType.LOOPING }, _arrowUpdateNudge);
 		arrow_tween.active = false;
 			
 	}//---------------------------------------------------;

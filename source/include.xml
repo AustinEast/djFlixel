@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 
-	<!-- General -------->
+	<!-- General -->
 	
 	<haxedef name="DJFLX_VER" value="0.3.1"/>
 	
 	<set name="SWF_VERSION" value="20" /> <!-- default is 11.8 -->
 	<window if="html5" resizable="false" />
 
-	<!-- DJFlixel --------->
+	<!-- DJFlixel -->
 
 	<assets path="assets/icons_8.png"  embed="true" if="DJFLX_ICONS_8" />
 	<assets path="assets/icons_12.png" embed="true" if="DJFLX_ICONS_12" />
@@ -24,7 +24,7 @@
 		<haxeflag name="-swf-lib" value="assets/newgrounds/NewgroundsAPI.swc"/>
 	</section>
 	
-	<!-- Flixel Defines ------->
+	<!-- Flixel Defines -->
 	<haxedef name="FLX_NO_DEBUG" unless="debug" />	
 	<haxedef name="FLX_NO_TOUCH" unless="mobile"/> 
 	<haxedef name="FLX_NO_MOUSE" 	if="mobile"/>

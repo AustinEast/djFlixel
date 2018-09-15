@@ -331,7 +331,7 @@ class VListNav<T:(IListItem<K>,FlxSprite),K> extends VListBase<T,K>
 		}else
 		// =============================== CONTROLS BACK     =======;
 		if (CTRL.CURSOR_CANCEL()) {
-			callback_menu("back");
+			// callback_menu("back");
 			
 		}else
 		// =============================== Start Button     =======;
